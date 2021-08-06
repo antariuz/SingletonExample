@@ -2,7 +2,7 @@ package singleton;
 
 public class Scooter {
     private static Scooter instance;
-    private String brandName;
+    private final String brandName;
 
     public Scooter(String brandName) {
         this.brandName = brandName;
